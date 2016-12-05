@@ -1,0 +1,14 @@
+site_name: testingtest
+pages:
+
+- Home: 'index.md'
+
+- Another:
+  - Technical details: 'another/details.md'
+  - Usage: 'another/usage.md'
+
+- 'License': 'about/license.md'
+
+
+theme: readthedocs
+
