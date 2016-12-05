@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Usage - testingtest</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Usage";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> testingtest</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Another</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../details/">Technical details</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Usage</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#_1">Υποβολή εργασιών στην Υπολογιστική Συστοιχία του ΑΠΘ</a></li>
+                
+                    <li><a class="toctree-l4" href="#login-node">Σύνδεση στο Login node</a></li>
+                
+                    <li><a class="toctree-l4" href="#script">Δημιουργία ενός απλού script για την υποβολή μίας εργασίας</a></li>
+                
+                    <li><a class="toctree-l4" href="#_2">Υποβολή της εργασίας στην Υπολογιστική συστοιχία του ΑΠΘ</a></li>
+                
+                    <li><a class="toctree-l4" href="#status">Έλεγχος του status της εργασίας</a></li>
+                
+                    <li><a class="toctree-l4" href="#_3">Ακύρωση της εκτέλεσης μίας εργασίας</a></li>
+                
+                    <li><a class="toctree-l4" href="#_4">Υποβολή παράλληλων εργασιών</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../about/license/">License</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">testingtest</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Another &raquo;</li>
+        
+      
+    
+    <li>Usage</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="_1">Υποβολή εργασιών στην Υπολογιστική Συστοιχία του ΑΠΘ</h1>
+<p>Σε αυτό το εγχειρίδιο, μπορείτε να βρείτε οδηγίες σχετικά με την χρήση PBS commands για την υποβολή εργασιών στην Υπολογιστική Συστοιχία του ΑΠΘ.</p>
+<h2 id="login-node">Σύνδεση στο Login node</h2>
+<p>Η υποβολή εργασιών στην Υπολογιστική Συστοιχία του ΑΠΘ, γίνεται μέσω του Login node.</p>
+<p>Για τον σκοπό αυτόν θα πρέπει πρώτα να συνδεθούμε στον server μέσω ssh. Μπορείτε να βρείτε σχετικές οδηγίες για Linux ή για Mac OS X εδώ και για Windows εδώ.</p>
+<p>Για μεταφορά αρχείων από και προς τον server ακολουθούμε τις οδηγίες για Linux ή για Mac OS X εδώ και για Windows εδώ.</p>
+<p>Στη συνέχεια θα πρέπει να μεταφερθούμε στο <code>SCRATCHDIR</code>, χρησιμοποιώντας την εντολή:</p>
+<pre><code>$ cd $SCRATCHDIR
+</code></pre>
+
+<p>ΣΗΜΑΝΤΙΚΟ: Τα δεδομένα που εναποτίθενται στο <code>SCRATCHDIR</code> θεωρούνται προσωρινά. Ως εκ τούτου αρχεία που δεν έχουν γίνει access (read, open, close κτλ) για χρονικό διάστημα 10 μηνών διαγράφονται αυτόματα από το σύστημα. Για τον λόγο αυτό θα πρέπει να λαμβάνεται ειδική φροντίδα ώστε τυχόν απαραίτητα/σημαντικά αρχεία να μεταφέρονται στο εκάστοτε $HOME directory του login node. </p>
+<h2 id="script">Δημιουργία ενός απλού script για την υποβολή μίας εργασίας</h2>
+<p>Το παρακάτω script είναι ένα παράδειγμα μίας πολύ απλής (σειριακής) PBS εργασίας:</p>
+<pre><code>#!/bin/bash
+#PBS -N testjob
+#PBS -q auth
+#PBS -j oe
+
+cd $PBS_O_WORKDIR
+
+hostname
+date &gt; datefile
+</code></pre>
+<p>Οι PBS options καθορίζονται στην αρχή του script. Οι δύο πρώτες δηλώνουν το όνομα της εργασίας και την job queue στην οποία θα υποβληθεί η εργασία.</p>
+<p>Η επιλογή <code>-j oe</code> χρησιμοποιείται για να δηλώσει ότι τα standard error και standard output streams της εργασίας θα επιστραφούν στο ίδιο αρχείο εξόδου μετά την ολοκλήρωση της εργασίας.</p>
+<p>Περισσότερες επιλογές οι οποίες μπορούν να χρησιμοποιηθούν σε ένα script για την υποβολή μίας PBS εργασίας, καθώς και η επεξήγησή τους υπάρχουν στο manual της εντολής qsub, το οποίο μπορούμε να το δούμε χρησιμοποιώντας την εντολή:</p>
+<p><code>$ man qsub</code></p>
+<p>Η μεταβλητή $PBS_O_WORKDIR αποθηκεύει το path του φακέλου από το οποίο έχουμε υποβάλει την εργασία. Έτσι, η παρακάτω γραμμή η οποία υπάρχει στο script:</p>
+<p><code>cd $PBS_O_WORKDIR</code></p>
+<p>χρησιμοποιείται έτσι ώστε να τρέξουν οι εντολές που την ακολουθούν εντός του φακέλου από τον οποίο έχουμε υποβάλει την εργασία.</p>
+<p>Μπορούμε να παρακολουθούμε την εξέλιξη της εργασίας μέσω των αρχείων εξόδου που παράγονται απευθείας στον φάκελο από όπου την υποβάλαμε.</p>
+<p>Σημειώστε ότι η γραμμή:</p>
+<p><code>date &gt; datefile</code></p>
+<p>θα τυπώσει την έξοδο της εντολής date στο αρχείο datefile (αντί του stadard output).</p>
+<p>Το αρχείο αυτό θα δημιουργηθεί εντός του φακέλου <code>PBS_O_WORKDIR</code> κατά την διάρκεια της εκτέλεσης της εργασίας.</p>
+<p>Επομένως, σε περίπτωση που υποβάλουμε μία δεύτερη εργασία από τον ίδιο φάκελο, το αρχείο datefile θα εγγραφεί εκ νέου με αποτέλεσμα να χαθούν τα περιεχόμενα που είχαν παραχθεί κατά την προηγούμενη εκτέλεση της εργασίας.</p>
+<p>Για να δώσουμε μοναδικά ονόματα στα παραγώμενα αρχεία των εργασίων μας, μπορούμε να χρησιμοποιούμε την μεταβλητή <code>PBS_JOBID</code>, η οποία αποθηκεύει το ID που έχει αποδοθεί στην εργασία από το batch system.</p>
+<p>Για αυτόν το σκοπό μπορούμε να τροποποιήσουμε το όνομα του αρχείου εξόδου ως εξής: <code>datefile.$PBS_JOBID</code>. Επομένως, η γραμμή θα γίνει:</p>
+<p><code>date &gt; datefile.$PBS_JOBID</code></p>
+<p>Έτσι αποφεύγουμε το ενδεχόμενο ένα μεταγενέστερο job να γράψει πάνω από αρχεία εξόδου ενός προγενέστερου.</p>
+<h2 id="_2">Υποβολή της εργασίας στην Υπολογιστική συστοιχία του ΑΠΘ</h2>
+<p>Για να υποβάλουμε την εργασία στην Υπολογιστική Συστοιχία του ΑΠΘ, αποθηκεύουμε το script της προηγούμενης ενότητας ως <code>script.sh</code> και τρέχουμε την παρακάτω εντολή από το <code>SCRATCHDIR</code></p>
+<p><code>$ qsub submit.sh</code></p>
+<h2 id="status">Έλεγχος του status της εργασίας</h2>
+<p>Για να ελέγξουμε το status στο οποίο βρίσκεται μία εργασία που έχουμε υποβάλει στην Υπολογιστική Συστοιχία του ΑΠΘ, μπορούμε να χρησιμοποιούμε την εντολή:</p>
+<pre><code>$ qstat
+</code></pre>
+
+<p>Το παρακάτω είναι ένα παράδειγμα της εξόδου που δίνει η εντολή qstat.</p>
+<pre><code>$ qstat
+Job id                    Name             User            Time Use S Queue
+------------------------- ---------------- --------------- -------- - -----
+3766683.cream01            testjob          alcharal               0 R see           
+3766684.cream01            testjob          alcharal               0 Q see
+</code></pre>
+
+<p>Το state της εργασίας μπορεί να είναι ένα από τα παρακάτω:</p>
+<pre><code>C - Job is completed after having run.
+E - Job is exiting after having run.
+Q - job is queued.
+R - job is running.
+W - job is waiting to be executed.
+</code></pre>
+<h2 id="_3">Ακύρωση της εκτέλεσης μίας εργασίας</h2>
+<p>Για να ακυρώσουμε την εκτέλεση μίας εργασίας η οποία εκτελείται στην Υπολογιστική Συστοιχία του ΑΠΘ, μπορούμε να χρησιμοποιούμε την εντολή qdel σε συνδυασμό με το ID της εργασίας που θέλουμε να ακυρώσουμε. Για παράδειγμα:</p>
+<pre><code>$ qdel 3766684
+</code></pre>
+<p>Η παραπάνω εντολή θα μπορούσε να χρησιμοποιηθεί για να ακυρώσει την εκτέλεση της εργασίας που εμφανίζεται κάτω από την εντολή qstat στην προηγούμενη παράγραφο.</p>
+<h2 id="_4">Υποβολή παράλληλων εργασιών</h2>
+<p>Ένα παράδειγμα script για την υποβολή μίας MPI εργασίας είναι το εξής:</p>
+<pre><code>#!/bin/bash
+#PBS -q auth
+#PBS -N mpi-mm
+#PBS -j oe
+#PBS -l nodes=1:ppn=8
+
+cd $PBS_O_WORKDIR
+export NP=$(cat $PBS_NODEFILE | wc -l)
+
+export I2G_MPI_TYPE=mpich2
+export I2G_MPI_APPLICATION=mm
+$I2G_MPI_START
+</code></pre>
+<p>Η επιλογή <code>nodes=1:ppn=8</code> χρησιμοποιείται έτσι ώστε για την εκτέλεση της εργασίας να δεσμευθεί ένα (1) node με διαθέσιμους 8 υπολογιστικούς πυρήνες (επεξεργαστές). Αντίστοιχα αν επιθυμούμε να εκτελεστεί το job μας σε 2 nodes με 4 διαθέσιμους πυρήνες σε κάθε ένα θα χρησιμοποιούσαμε το εξής:</p>
+<pre><code>#PBS -l nodes=2:ppn=4
+</code></pre>
+<p>Η επιλογή της εφαρμογής (που θα πρέπει στη προκειμένη περίπτωση να έχει γίνει compile με mpich2 υλοποίηση) γίνεται στη γραμμή export <code>I2G_MPI_APPLICATION=mm</code> στο παραπάνω script και είναι συγεκριμμένα το όρισμα που ακολουθεί το σύμβολο '<code>=</code>'. Το συγκεκριμμένο παράδειγμα μπορεί κανείς να το κατεβάσει από εδώ. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../about/license/" class="btn btn-neutral float-right" title="License"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../details/" class="btn btn-neutral" title="Technical details"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../details/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../about/license/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
